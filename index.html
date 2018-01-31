@@ -9,28 +9,30 @@
 <body>
     
     <nav class="tabs">
-        <button data-tab="1">7</button>
-        <button data-tab="2">8</button>
-        <button data-tab="3">9</button>
-        <button data-tab="4">+</button>
+        <button onclick="result.text = '1';">7</button>
+        <button onclick="result.text = '2';">8</button>
+        <button onclick="result.text = '3';">9</button>
+        <button onclick="result.text = '4';">+</button>
         <br>
-        <button data-tab="5">4</button>
-        <button data-tab="6">5</button>
-        <button data-tab="7">6</button>
-        <button data-tab="8">-</button>
+        <button onclick="result.text = '5';">4</button>
+        <button onclick="result.text = '6';">5</button>
+        <button onclick="result.text = '7';">6</button>
+        <button onclick="result.text = '8';">-</button>
         <br>
-        <button data-tab="9">1</button>
-        <button data-tab="10">2</button>
-        <button data-tab="11">3</button>
-        <button data-tab="12">*</button>
+        <button onclick="result.text = '9';">1</button>
+        <button onclick="result.text = '10';">2</button>
+        <button onclick="result.text = '11';">3</button>
+        <button onclick="result.text = '12';">*</button>
         <br>
-        <button data-tab="13">с</button>
-        <button data-tab="14">0</button>
-        <button data-tab="15">=</button>
-        <button data-tab="16">/</button>
+        <button onclick="result.text = '13';">с</button>
+        <button onclick="result.text = '14';">0</button>
+        <button onclick="result.text = '15';">=</button>
+        <button onclick="result.text = '16';">/</button>
     </nav>
-    
-  <input type="text" name="input" class="display">
+
+<form name="result">
+      <input type="text" name="input" class="display">
+</form>
     
     
     <script
